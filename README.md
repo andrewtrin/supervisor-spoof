@@ -13,9 +13,9 @@ A multi-process device management simulation built with Python. This project dem
 
 ## Architecture
 
-* **`app.py` (The Supervisor):** The main entry point. It renders the UI, handles user input events, and spawns background threads to monitor device logs.
-* **`devices.py` (The Driver Layer):** A wrapper class that abstracts the `subprocess` logic. It handles the startup (`Popen`) and teardown (`terminate`) of the worker scripts.
-* **`mock_device.py` (The Worker):** A standalone script that simulates hardware. It runs in an infinite loop, printing status updates to `stdout` and listening for kill signals.
+* **`app.py`:** The main entry point. It renders the UI, handles user input events, and spawns background threads to monitor device logs.
+* **`devices.py`:** A wrapper class that abstracts the `subprocess` logic. It handles the startup (`Popen`) and teardown (`terminate`) of the worker scripts.
+* **`mock_device.py`:** A standalone script that simulates hardware. It runs in an infinite loop, printing status updates to `stdout` and listening for kill signals.
 
 ## Installation
 
