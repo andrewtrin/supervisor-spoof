@@ -2,6 +2,8 @@
 
 A multi-process device management simulation built with Python. This project demonstrates a **Supervisor/Driver architecture** where a central Terminal User Interface (TUI) manages independent child processes representing hardware devices.
 
+<img width="780" height="431" alt="image" src="https://github.com/user-attachments/assets/471128b6-44e2-411b-8a3f-a76dcc0eec73" />
+
 ## Key Features
 
 * **Asynchronous UI:** Built with [Textual](https://textual.textualize.io/), providing a responsive TUI that does not freeze during background operations.
